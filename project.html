@@ -1,0 +1,489 @@
+<!doctype html>
+<html><head><title>BBC-tech</title>
+    <style type="text/css">
+        #top{
+       width:1500px;
+            margin:0 auto;
+            height:40px;
+            
+    
+        }
+        body{
+            margin:0;
+            padding:0;
+        }
+        #logo{
+            margin-top:8px;
+            width:100px;
+            float: left;    
+        margin-right: 10px;
+        margin-left: 80px;
+        }
+        
+        .top-sec{
+            float:left;
+            border-left: 1px #cccccc solid;
+            height: 100%;
+            }
+        #signin-image{
+            width:30px;
+            margin-top:10px;
+            margin-left:10px;
+            float: left;
+            margin-right:8px;
+        }
+        #sign-text{
+            font-weight: bold;
+            font-size: 90%;
+            position:relative;
+            top:13px;
+            padding-right: 50px;
+        }
+        .text-style{
+            font-size: 90%;
+            font-weight: 600;
+            position: relative;
+            top:13px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #more-style{
+         padding-right:40px;   
+            
+        }
+        #arrow{
+            float: left;
+            margin-top: 15px;
+            
+        }
+        #search-box{
+            background-color: #E4E4E4;
+            border:none;
+            margin-left: 20px;
+            float: left;
+            margin-top:8px; 
+            height: 30px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        #mag-style{
+            float:left;
+            margin-top:6px; 
+        }
+        .clear{
+            clear: both;
+        }
+        #menubar-top{
+            background-color: #BB1919;
+            width: 100%;
+            height: 100px;    
+            margin-left: -20px;
+            padding-right: 38px;
+            
+        }
+            #menubar{
+            width:1500px;
+            margin:0 auto;
+            padding-top: 20px;
+        }
+    
+        #news{color: white;
+            font-size: 40px;
+            font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+           margin:-6px 0px 0px 100px;
+            padding:0;
+            font-weight: normal;
+            }
+        #local-news{
+            float:right;
+             
+            
+            margin-bottom: 50px;
+        }
+        #local-news a{
+            width: 100px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            top:-15;
+            border: 1px #BB4545 solid;
+            position: relative;
+            top:-40px;
+        }
+      
+        #local-news a:hover{
+            text-decoration: underline;
+        }
+        #menubar2-container{
+            background-color: #A91717;
+            width:100%;
+            position: relative;
+            left:-20px;
+            padding-right: 38px;
+            
+        
+        }
+        #menubar2{
+            width:1120px;
+            height:50px;
+            margin-top: -65px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        #menubar2 a{
+            border-right: 1px #cccccc solid;
+            color: white;
+            padding:0 10px;
+            font-size: 14px;
+            position: relative;
+            top:25px;
+            text-decoration: none;
+        }
+        #menubar2 a:hover{
+            text-decoration: underline;
+            }
+        .noborder{
+            border:none !important;
+        }
+        #arrow2{
+            position:relative;
+            top:3px;
+        }
+        #pagecontainer{
+            width:1000px;
+            margin:0 auto;
+        }
+        h2{
+            font-weight: normal;
+            
+            font-size: 30px;
+            border-bottom: 2px solid #A91717;
+            width:60px;
+            
+            margin-left:-100px;
+            margin-top: -10px;
+        }
+       #nhsimg{
+            width:480px;
+           margin-left: -100px;
+        }
+        h3 a{
+            color: grey;
+            text-decoration: none;
+            font-size: 20px;
+            font-stretch: condensed;
+            margin-left: -100px;
+            
+        }
+        h3 a:hover{
+            
+            text-decoration: underline;
+            text-decoration-color: #1380A1;
+        }
+        #article-summary{
+            font-size: 15px;
+            color: :#5a5a5a;
+            width:300px;
+            margin-left: -100px; 
+        }
+        .clock{
+            width: 14px;
+            margin-bottom: -4px;
+        }
+        
+        #article-summary a{
+            margin-left:5px;
+            text-decoration: none;
+            color: black
+        }
+        #article-summary a:hover{
+            text-decoration: underline;
+            text-decoration-color: #1380A1;
+            color: #1380A1;
+        }
+        #articlecontainer{
+            float: left;
+            width:600px;
+        }
+        #comments{
+            width:35px;
+            position: relative;
+            top: 3px;
+        }
+        .article-link {
+            list-style-type:circle;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #subarticle{
+            width:400px;
+            
+            
+        }
+        #laptop{
+            position: relative;
+            bottom:540px;
+            margin-left: 200px;
+            width:250px;
+            float:right;
+            left:300px;
+        }
+        #sublink  a{position:relative;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            float: right;
+            font-size: 17px;
+            width:200px;
+            bottom:530px;
+            left:260px;
+            
+        }
+        #sublink a:hover{
+            text-decoration: underline;
+            text-decoration-color: #1380A1;
+            color:#1380A1;
+        }
+        #subsummary{
+            float: right;
+            position: relative;
+            bottom: 530px;
+            left:360px;
+            width:300px;
+            
+        }
+        .clockside{
+            float: right;
+            position:relative;
+            left:370px;
+            bottom:440px;
+            width:14px;
+        }
+        #tech1{
+            position:relative;
+            left: 480px;
+            bottom: 402px;
+            
+        }
+        #tower{
+            width:250px;
+            position: relative;
+            bottom:820px;
+            left:690px;
+            float: right;
+        }
+        #sublink2 a{
+            width:230px;
+            float: right;
+            position: relative;
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            font-weight: bolder;
+            bottom: 800px;
+            left:660px;
+            }
+        #subsummary2{
+            float: right;
+            position: relative;
+            bottom: 800px;
+            left:730px;
+            width:300px;
+            
+        }
+        #clockside1{
+            float: right;
+            position:relative;
+            left:740px;
+            bottom:710px;
+            width:14px;
+        }
+        #tech2{
+            position:relative;
+            left: 850px;
+            bottom: 436px;
+        
+        }
+        #comments1{
+            width:35px;
+            position: relative;
+            top: 3px;
+            left:90px;
+        }
+        #game{
+            position: relative;
+            bottom:720px;
+            margin-left: 200px;
+            width:250px;
+           float:right;
+            left:300px;
+        }
+        #sublink3 a{
+            position:relative;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            float: right;
+            font-size: 17px;
+            width:200px;
+            bottom:700px;
+            left:260px;
+            
+        }
+        #sublink3 a:hover{
+            text-decoration: underline;
+            text-decoration-color: #1380A1;
+            color:#1380A1;
+        }
+        #subsummary3{
+            float: right;
+            position: relative;
+            bottom: 690px;
+            left:350px;
+            width:300px;
+            
+        }
+        #clockside3{
+            float: right;
+            position:relative;
+            left:360px;
+           bottom:600px;
+            width:14px;
+        }
+        #tech3{float: right;
+            position:relative;
+            left: 470px;
+            bottom: 603px;
+          5 
+        }
+        #google{
+            width:250px;
+            position: relative;
+            bottom:990px;
+            left:690px;
+            float: right;
+            height:150px;
+        }
+        #sublink4 a{
+            width:320px;
+            float:right;       position: relative;
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            font-weight: bolder;
+            bottom: 980px;
+            left:750px;
+            }
+        #subsummary4{
+            float: right;
+            position: relative;
+            bottom: 983px;
+            left:730px;
+            width:300px;
+            
+        }
+        #clockside4{
+            float: right;
+            position:relative;
+            left:745px;
+            bottom: 890px;
+            width:14px;
+        }
+        #tech4{float: right;
+            position:relative;
+            left: 850px;
+            bottom: 892px;
+        
+        }
+        
+        
+        
+        </style>
+</head>
+    <body>
+        <div id="top">
+        <img id="logo" src="bbc.png">        
+                <div id="signin" class="top-sec">
+            <img id="signin-image" src="signin.png">
+                    <span  id="sign-text">Sign in</span>
+                    </div>
+            <div class="top-sec"><span class="text-style">Home</span></div>
+            <div class="top-sec"><span class="text-style">News</span></div>
+            <div class="top-sec"><span class="text-style">Sport</span></div>
+            <div class="top-sec"><span class="text-style">Reel</span></div>
+            <div class="top-sec"><span class="text-style">Worklife</span></div>
+            <div class="top-sec"><span class="text-style">Travel</span></div>
+            <div class="top-sec"><span class="text-style">Future</span></div>
+            <div class="top-sec"><span class="text-style">Culture</span></div>
+            <div class="top-sec"><span class="text-style" id="More-style">More</span></div>
+          <div id="arrow"><img src="Untitled.png"></div>
+            <div class="top-sec">
+            <input id="search-box" type="text" placeholder="search">
+            <input type="image" id="mag-style" src="project-images/magnifying-glass.png"></div>
+            <div class="clear"></div>
+            <div id="menubar-top">
+                <div id="menubar"><h1 id="news">NEWS</h1></div>
+                <div id="local-news"><a href="">Find the local news</a></div>
+            </div>
+            <div class="clear"></div>
+            <div id="menubar2-container">
+                <div id="menubar2">
+                    <a href="">Home</a>
+                    <a href="">Coronavirus</a>
+                    <a href="">Video</a>
+                    <a href="">World</a>
+                    <a href="">Asia</a>
+                    <a href="">UK</a>
+                    <a href="">Business</a>
+                    <a href="">Tech</a>
+                    <a href="">Science</a>
+                    <a href="">Stories</a>
+                    <a href="">Entertainment & Arts</a>
+                    <a href="">Health</a>
+                    <a href="">World News TV</a>
+                    <a href="">In Pictures</a>
+                    <a href="" class="noborder">More <img id="arrow2" src="arrow2.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="pagecontainer">
+            <div id="main-article">
+                <h2>Tech</h2>
+                <div id="articlecontainer">
+                <a href=""><img id="nhsimg" src="nhs.jpg"></a>
+                <h3><a href="">NHS trusts request basic items via Amazon lists</a></h3>
+                <div id="article-summary"><p>Hand creams and thermometers have been asked for - but some hospital staff have raised concerns.</p>
+                    <p><img class="clock" src="clock.png">14h |<a  href="">Technology | <img id="comments" src="comment.png"></a></p>
+                    <ul><li><a  href="" class="article-link"> Coronavirus: Amazon builds its own testing lab for staff </a></li></ul>
+                    <ul><li><a  href="" class="article-link"> Coronavirus: YouTube stars urge fans to stay at home </a></li></ul>
+                    </div>
+                    </div>
+                </div>
+            <div class="clear"></div>
+                <div id="subarticle"><div id="sublink" ><img id="laptop" src="laptop.png"><p><a  href=""   >Apple tracks changes in pandemic travel behaviour</a></p>
+                    <p id="subsummary">Firm offers tool that tracks how many people are walking, driving and using public transport.</p>
+                    <p><img class="clockside" src="clock.png"><span id="tech1">| Technology | <img id="comments" src="comment.png"></span></p></div> 
+                    <div ><img id="tower" src="tower.png">
+                    <p id="sublink2"><a  href="">Twenty suspected phone mast attacks over Easter</a></p>
+                    <p id="subsummary2">Vodafone says one of the "deluded" attacks was on a mast serving Birmingham's Nightingale hospital.</p>
+                    <p><img id="clockside1" src="clock.png"><span id="tech2">| Technology  </span></p>
+                    </div>
+                    <div ><img id="game" src="movie.png">
+                    <p id="sublink3"><a  href="">Fortnite delays release of its new season</a></p>
+                    <p id="subsummary3">The gaming industry has experienced delays because of restrictions on developers working from home.</p>
+                    <p><img id="clockside3" src="clock.png"><span id="tech3">| Technology  </span></p>
+                    </div>
+                    <div ><img id="google" src="google.png">
+                    <p id="sublink4"><a  href="">JERIN ROSE (aka) JR Promoted as GOOGLE CEO Again an Indian ruling the GOOGLE</a></p>
+                    <p id="subsummary4">JR is a corporate monster and a leading Businessman in the World.Indians are again proud of him.</p>
+                    <p><img id="clockside4" src="clock.png"><span id="tech4"> | Technology  </span></p>
+                    </div>
+                      
+                </div>
+            </div>          
+        
+        </body>
+</html>
